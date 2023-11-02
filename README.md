@@ -7,12 +7,12 @@ The generated clip is stored along with other information i.e. accuracy, crime_t
 An alert message is sent to the respective authority using our flutter Mobile App
 
 ## Technology used: 
---Convolutional Neural Network
---Long Short Term Memory
---OpenCV
---Python
---Firebase Admin 
---Google Colab
+-Convolutional Neural Network
+-Long Short Term Memory
+-OpenCV
+-Python
+-Firebase Admin 
+-Google Colab
 
 ## Screenshots: 
 ![image](https://github.com/harsh-kamde/CrimeDetectionML/assets/105597593/c999c8a4-bdc3-4fda-902f-1f1a71113a40)

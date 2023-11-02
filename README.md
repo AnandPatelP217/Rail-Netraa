@@ -7,7 +7,7 @@ The generated clip is stored along with other information i.e. accuracy, crime_t
 An alert message is sent to the respective authority using our flutter Mobile App
 
 ## Technology used: 
-*Convolutional Neural Network(CNN)
+* Convolutional Neural Network(CNN)
 *Long Short Term Memory(LSTM)
 *OpenCV
 *Keras

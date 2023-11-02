@@ -8,14 +8,14 @@ An alert message is sent to the respective authority using our flutter Mobile Ap
 
 ## Technology used: 
 * Convolutional Neural Network(CNN)
-*Long Short Term Memory(LSTM)
-*OpenCV
-*Keras
-*NumPy
-*Python
-*Deep Learning
-*Firebase Admin 
-*Google Colab
+* Long Short Term Memory(LSTM)
+* OpenCV
+* Keras
+* NumPy
+* Python
+* Deep Learning
+* Firebase Admin 
+* Google Colab
 
 ## Screenshots: 
 ![image](https://github.com/harsh-kamde/CrimeDetectionML/assets/105597593/c999c8a4-bdc3-4fda-902f-1f1a71113a40)

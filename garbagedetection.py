@@ -33,7 +33,7 @@ def save_to_firestore(platform, cctv_url, curr_time, curr_date, label, accuracy,
         u'cctv_url': cctv_url,
         u'time': curr_time,
         u'date': curr_date,
-        u'label': label,
+        u'status': label,
         u'accuracy': accuracy,
         u'platform': platform,
         u'video_url': save_video_to_firebase_storage(video_url)
@@ -46,7 +46,7 @@ def predict_on_live_cctv(CCTV_URL, platform):
 
     ClassNames = ['garbage', 'garbage_bag']
 
-    myColor = (0, 0, 255)
+    myColor = (0, 255, 0)
 
     # where you want to save detected images
     save_directory = "detected_images"
@@ -76,7 +76,7 @@ def predict_on_live_cctv(CCTV_URL, platform):
                 currentClass = ClassNames[cls]
 
                 if currentClass == 'garbage' or 'garbage_bag':
-                    myColor = (0, 0, 255)
+                    myColor = (0, 255, 0)
 
                     # Checking the time since the last saved detected image
                     current_time = time.time()
@@ -104,14 +104,12 @@ def predict_on_live_cctv(CCTV_URL, platform):
                         print('Image stored successfully!')
                         # firebase part end
 
-                else:
-                    myColor = (255, 0, 0)
 
                 # Draw bounding box
                 cv2.rectangle(img, (x1, y1), (x2, y2), myColor, 1)
 
                 # Display class name
-                cv2.putText(img, currentClass, (x1, y1 - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.6, myColor, 1)
+                cv2.putText(img, currentClass, (x1, y1 - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.6, myColor, 2)
 
         cv2.imshow("Image", img)
 
@@ -144,7 +142,7 @@ def analyze_video(platform, cctv_url):
 
 
 # Fetch and analyze CCTV data
-# fetch_cctv_data()
+fetch_cctv_data()
 # local se fatch karne ka
-analyze_video('platform_1', 'garbage-test(1).mp4')
+# analyze_video('platform_1', 'garbage-test(1).mp4')
 

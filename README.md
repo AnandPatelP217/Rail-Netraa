@@ -1,4 +1,5 @@
-# Rail-Netra: A complete solution for Indian Railway Monitoring and Management.
+# Rail-Netra:
+
 
 ![rail_netra](https://github.com/HARIOM317/Rail-Netra/assets/75768277/05188cdb-7155-4249-909a-9dafb30d84e1)
 

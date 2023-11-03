@@ -147,6 +147,6 @@ def analyze_video(platform, cctv_url):
 
 
 # Fetch and analyze CCTV data
-# fetch_cctv_data()
-analyze_video('platform_1', 'test_videos(4).mp4')
+fetch_cctv_data()
+# analyze_video('platform_1', 'test_videos(4).mp4')
 

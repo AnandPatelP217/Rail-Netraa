@@ -2,7 +2,7 @@
 
 A complete solution for indian railway monitoring and management.
 
-## The Rail Netra App Preview
+## Peview
 
 ![rail_netra](https://github.com/HARIOM317/Rail-Netra/assets/75768277/05188cdb-7155-4249-909a-9dafb30d84e1)
 
